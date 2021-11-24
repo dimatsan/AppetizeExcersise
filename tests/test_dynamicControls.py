@@ -7,7 +7,7 @@ class DynamicControlsTest(DynamicControlsPage):
         super().setUp()
         self.open_dynamic_controls_page()
 
-    # after checking "A chackbox" and clicking Remove - a checkbox should disappear and "It's gone!" message should
+    # after checking "A checkbox" and clicking Remove - a checkbox should disappear and "It's gone!" message should
     # be displayed and after clicking Add the checkbox should appear again with "It's back!" message
     def test_dynamicCheckbox(self):
         self.assert_true(self.is_element_present(DynamicControlsPage.checkbox_element))
