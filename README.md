@@ -32,4 +32,5 @@ Text editor: PyCharm 2020.3.3
 - to run tests on different browsers add --browser=browser_name attribute (i.e. --browser=firefox).
 - to run specific test suite add -k "test_suite_name";
 
+In Geolocation test - I have added a small extra step that takes your coordinates and returns the actual location. Just for fun =) Can be easily removed if needed.
 Regarding geolocation permission: I have attampted to include giving a permission to track location into the automation, but it seemed to be a quite complicated and complex piece of work, different for each browser, which makes giving this permission manually one time before running the automation much more reasonable and efficient, since this is an action you need to perform only once per each browser. If you think it would make more sense to include this step into an automation - I would appreciate your guidence on how to do it. 
