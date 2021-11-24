@@ -20,7 +20,9 @@
 
 ### Author's software configuration
 Project was completed using Python v3.10 with SeleniumBase framework.
+
 OS: Windows 10
+
 Text editor: PyCharm 2020.3.3
 
 ### Additional framework features
