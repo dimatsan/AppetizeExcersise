@@ -3,7 +3,7 @@
 
 ## Pre-conditions
 1. Python 3 installed
-2. Geolocation tracking permission allowed for https://the-internet.herokuapp.com/ (see misc details for more info)
+2. Geolocation tracking permission allowed for https://the-internet.herokuapp.com/ in browser settings(for more info see misc details)
 
 
 ## Framework set up
@@ -29,3 +29,5 @@ Text editor: PyCharm 2020.3.3
 - add --headless attribute to run without browser window
 - for quick report add --dashboard attribute and open generated dashboard.HTML file
 - for detailed report add --html=report.html and open generated report.HTML file
+- to run tests on different browsers add --browser=browser_name attribute (i.e. --browser=firefox).
+- to run specific test suite add -k "test_suite_name";
